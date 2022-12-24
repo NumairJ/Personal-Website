@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(to right, rgba(145, 145, 145), rgb(53, 53, 53));
+  }
+  #home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)), url('https://news.ccc.edu/wp-content/uploads/2021/09/Wright-Engineering-Art.jpg');
+    color: white;
+    background-size: cover;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    text-align: center;
+  }
+  .carousel-caption{
+    position:initial;
+    color: white;
+  }
+  #resume{
+    background-image: linear-gradient(to right, rgba(145, 145, 145), rgb(53, 53, 53));        
+    padding-top: 4em;
+    padding-bottom: 4em;
+    text-align: center; color:white;
+  }
+  #course-taken{
+    background-image: linear-gradient(to right, rgb(107, 153, 218), rgb(22, 21, 104));        
+    padding-top: 4em;
+    padding-bottom: 4em;
+    text-align: center; color:white;
+  }
+  #contact{
+    background-image: linear-gradient(to right, rgb(145, 145, 145), rgb(53, 53, 53));
+    text-align: center; color:white;
+  }
+  .nav-link{
+    color:#ffffff
+  }
+  .about-me{
+    font-size: large;
+    
+  }
+  .card{
+    margin-left: 1em;
+    cursor: pointer; 
+    transition-property: all; 
+    transition-duration: 0.3s; 
+    transition-timing-function: ease;
+    z-index: 2;
+  }
+  .card:hover{
+    transform: scale(1.5);
+    z-index: 3;
+  }
